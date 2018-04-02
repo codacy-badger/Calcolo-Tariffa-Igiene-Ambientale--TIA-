@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/easy/Documents/GitHub/Calcolo-Tariffa-Igiene-Ambientale--TIA-/TIA.c
+stdio.h
+-
+stdlib.h
+-
+
