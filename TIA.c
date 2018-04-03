@@ -14,8 +14,8 @@ int main() {
             int tariffa=0;
             float quotavar=0;
             float totale=0;
-    printf("Calcolo per la Tariffia Igiene Ambientale\nVersione 0.1\nFrancesco Masala\n");
-    printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2\n");
+    printf("Calcolo per la Tariffia Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
+    printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2 (non funzionante)\n");
     scanf("%d", &tariffa);
 
 
@@ -30,6 +30,7 @@ int main() {
 
             printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq);
 
+            printf("In developing :D")
 
     } else {
 

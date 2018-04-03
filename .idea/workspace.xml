@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72af0b6-7318-4d8d-89c2-93c0a567e0b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/TIA.c" afterPath="$PROJECT_DIR$/TIA.c" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled4.dir/TIA.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled4.dir/TIA.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled4" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled4" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="TIA.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TIA.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+            <state relative-caret-position="15">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding>
                 <element signature="e#188#206#0" expanded="true" />
               </folding>
@@ -155,12 +152,12 @@
       <updated>1522427811808</updated>
       <workItem from="1522427813064" duration="572000" />
       <workItem from="1522677016280" duration="5613000" />
-      <workItem from="1522691156043" duration="3380000" />
+      <workItem from="1522691156043" duration="3621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9565000" />
+    <option name="totallyTimeSpent" value="9806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TIA.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding>
             <element signature="e#188#206#0" expanded="true" />
           </folding>
