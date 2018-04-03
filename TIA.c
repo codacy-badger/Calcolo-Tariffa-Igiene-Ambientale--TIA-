@@ -16,11 +16,11 @@ int main() {
             float totale=0;
     printf("Calcolo per la Tariffia Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
     printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2 (non funzionante)\n");
-    scanf("%d", &tariffa);
+    scanf("%d", &tariffa); //selezione del territorio
 
 
-    if (tariffa == 2) {
-            printf("Hai selezionato Territorio Extraurbano\n");
+    if (tariffa == 2) {     //selezione del territorio pt.2
+            printf("Hai selezionato Territorio Extraurbano\n"); //annuncio del territorio
             printf("inserire il numero di componenti della famiglia:\n");
             scanf("%d", &comp);
 
@@ -28,13 +28,13 @@ int main() {
 
             scanf("%d", &qfmq);
 
-            printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq);
+            printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq); //output dei dati per verifica
 
-            printf("In developing :D")
+            printf("In developing :D"); //non va
 
     } else {
 
-            printf("hai selezionato Territorio Urbano\n");
+            printf("hai selezionato Territorio Urbano\n"); //annuncio del territorio
             printf("inserire il numero di componenti della famiglia:\n");
             scanf("%d", &comp);
 
@@ -42,11 +42,11 @@ int main() {
 
             scanf("%d", &qfmq);
 
-            printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq);
-        if(comp==1) {
-            quotavar=0.7313;
-            totale=quotavar*qfmq;
-                printf("Il totale dovuto da pagare è di: %f", totale);
+            printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq); //output dei dati per verifica
+        if(comp==1) { //selezione dei componenti della famiglia attraverso comp
+            quotavar=0.7313; //impostazione della quota variabile
+            totale=quotavar*qfmq; //moltiplicazione quota variabile per metri quadri
+                printf("Il totale dovuto da pagare è di: %f", totale); //output del totale dovuto da pagare
 
         } else {
                     if(comp==2)  {
@@ -77,9 +77,9 @@ int main() {
                                                                  }
                                                         }
                                                 }
-                                    }
-                    }
-        }
+                                        }
+                                }
+                        }
 
     return 0;
 }
