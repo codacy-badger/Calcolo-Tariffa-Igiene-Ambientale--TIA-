@@ -65,17 +65,17 @@ int main() {
                                                     totale=quotavar*qfmq;
                                                     printf("Il totale dovuto da pagare è di: %f", totale);
                                                 } else {
-                                                        if(comp==5) {
+                                                            if(comp==5) {
                                                                         quotavar=1.1246;
                                                                         totale=quotavar*qfmq;
                                                                         printf("Il totale dovuto da pagare è di: %f", totale);
-                                                                } else {
+                                                                    } else {
                                                                         quotavar=1.1886;
                                                                         totale=quotavar*qfmq;
                                                                         printf("Il totale dovuto da pagare è di: %f", totale);
 
-                                                                 }
-                                                        }
+                                                                    }
+                                                            }
                                                 }
                                         }
                                 }
