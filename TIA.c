@@ -12,8 +12,24 @@ int main() {
             int comp=0;
             int qfmq=0;
             int tariffa=0;
-            float quotavar=0;
+            float quotavar1=39.27;
+            float quotavar2=70.7005;
+            float quotavar3=90.3375;
+            float quotavar4=117.8585;
+            float quotavar5=141.4010;
+            float quotavar6=161.0380;
+            float quotafix1=0.7313;
+            float quotafix2=0.8594;
+            float quotafix3=0.9599;
+            float quotafix4=1.0423;
+            float quotafix5=1.1246;
+            float quotafix6=1.1886;
+            float quotafissa=0;
             float totale=0;
+            float tia=0;
+            float iva=0;
+
+
     printf("Calcolo per la Tariffia Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
     printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2 (non funzionante)\n");
     scanf("%d", &tariffa); //selezione del territorio
@@ -21,8 +37,6 @@ int main() {
 
     if (tariffa == 2) {     //selezione del territorio pt.2
             printf("Hai selezionato Territorio Extraurbano\n"); //annuncio del territorio
-            printf("inserire il numero di componenti della famiglia:\n");
-            scanf("%d", &comp);
 
             printf("inserire il numero di metri quadrati della casa:\n");
 
@@ -30,7 +44,14 @@ int main() {
 
             printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq); //output dei dati per verifica
 
-            printf("In developing :D"); //non va
+            if(qfmq<45) {
+                totale=(quotafix1*qfmq)+quotavar1;
+                quotafissa=quotafix1*qfmq;
+                iva=totale/10;
+                tia=iva+totale;
+            }else{
+
+            }
 
     } else {
 
@@ -44,36 +65,46 @@ int main() {
 
             printf("Resoconto totale:\nComponenti della famiglia: %d\nMetri quadrati della casa:%d\n",comp,qfmq); //output dei dati per verifica
         if(comp==1) { //selezione dei componenti della famiglia attraverso comp
-            quotavar=0.7313; //impostazione della quota variabile
-            totale=quotavar*qfmq; //moltiplicazione quota variabile per metri quadri
-                printf("Il totale dovuto da pagare è di: %f", totale); //output del totale dovuto da pagare
+            totale=(quotafix1*qfmq)+quotavar1;//moltiplicazione quota fissa per metri quadri più quota variabile
+            quotafissa=quotafix1*qfmq;
+            iva=totale/10;
+            tia=iva+totale;
+            printf("Quota fissa = %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix1,qfmq,quotafissa,quotavar1,totale,iva,tia);  //output del totale dovuto da pagare
 
         } else {
                     if(comp==2)  {
-                            quotavar=0.8594;
-                            totale=quotavar*qfmq;
-                            printf("Il totale dovuto da pagare è di: %f", totale);
-
+                            totale=(quotafix2*qfmq)+quotavar2;
+                            iva=totale/10;
+                            tia=iva+totale;
+                            quotafissa=quotafix2*qfmq;
+                            printf("Quota fissa= %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix2,qfmq,quotafissa,quotavar2,totale,iva,tia);
                     } else {
                                     if(comp==3) {
-                                            quotavar=0.9599;
-                                            totale=quotavar*qfmq;
-                                            printf("Il totale dovuto da pagare è di: %f", totale);
+                                            totale=(quotafix3*qfmq)+quotavar3;
+                                            iva=totale/10;
+                                            tia=iva+totale;
+                                            quotafissa=quotafix3*qfmq;
+                                            printf("Quota fissa= %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix3,qfmq,quotafissa,quotavar3,totale,iva,tia);
                                     } else {
                                                 if(comp==4) {
-                                                    quotavar=1.0423;
-                                                    totale=quotavar*qfmq;
-                                                    printf("Il totale dovuto da pagare è di: %f", totale);
+                                                    totale=(quotafix4*qfmq)+quotavar4;
+                                                    iva=totale/10;
+                                                    tia=iva+totale;
+                                                    quotafissa=quotafix4*qfmq;
+                                                    printf("Quota fissa= %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix4,qfmq,quotafissa,quotavar4,totale,iva,tia);
                                                 } else {
                                                             if(comp==5) {
-                                                                        quotavar=1.1246;
-                                                                        totale=quotavar*qfmq;
-                                                                        printf("Il totale dovuto da pagare è di: %f", totale);
+                                                                        totale=(quotafix5*qfmq)+quotavar5;
+                                                                        iva=totale/10;
+                                                                        tia=iva+totale;
+                                                                        quotafissa=quotafix5*qfmq;
+                                                                        printf("Quota fissa= %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix5,qfmq,quotafissa,quotavar5,totale,iva,tia);
                                                                     } else {
-                                                                        quotavar=1.1886;
-                                                                        totale=quotavar*qfmq;
-                                                                        printf("Il totale dovuto da pagare è di: %f", totale);
-
+                                                                        totale=(quotafix6*qfmq)+quotavar6;
+                                                                        iva=totale/10;
+                                                                        tia=iva+totale;
+                                                                        quotafissa=quotafix6*qfmq;
+                                                                        printf("Quota fissa= %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix6,qfmq,quotafissa,quotavar6,totale,iva,tia);
                                                                     }
                                                             }
                                                 }
