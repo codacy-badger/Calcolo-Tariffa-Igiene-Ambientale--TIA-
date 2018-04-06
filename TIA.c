@@ -30,7 +30,7 @@ int main() {
             float iva=0;
 
 
-    printf("Calcolo per la Tariffia Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
+    printf("Calcolo per la Tariffa Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
     printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2 (non funzionante)\n");
     scanf("%d", &tariffa); //selezione del territorio
 
