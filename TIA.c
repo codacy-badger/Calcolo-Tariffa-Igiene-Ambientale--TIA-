@@ -53,28 +53,28 @@ int main() {
                 printf("Quota fissa = %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix1,qfmq,quotafissa,quotavar1,totale,iva,tia);  //output del totale dovuto da pagare
             }else{
         	
-			        		if(qfmq>=46<=60) {
+			        		if(qfmq>=46&&qfmq<=60) {
 								totale=(quotafix2*qfmq)+quotavar2;
                 				quotafissa=quotafix2*qfmq;
                 				iva=totale/10;
                 				tia=iva+totale;
                 				printf("Quota fissa = %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix2,qfmq,quotafissa,quotavar2,totale,iva,tia);  //output del totale dovuto da pagare
 							}else{
-											if(qfmq>=61<=75) {
+											if(qfmq>=61&&qfmq<=75) {
 												totale=(quotafix3*qfmq)+quotavar3;
                 								quotafissa=quotafix3*qfmq;
                 								iva=totale/10;
                 								tia=iva+totale;
                 								printf("Quota fissa = %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix3,qfmq,quotafissa,quotavar3,totale,iva,tia);  //output del totale dovuto da pagare
 											}else{
-															if(qfmq>=76<=90) {
+															if(qfmq>=76&&qfmq<=90) {
 																quotafissa=quotafix4*qfmq;
 																totale=quotafissa+quotavar4;
                 												iva=totale/10;
                 												tia=iva+totale;
                 												printf("Quota fissa = %f x %d mq =€ %f\nQuota variabile =€ %f\nTotale Imponibile =€ %f\nIva =€ %f\nTotale =€ %f", quotafix4,qfmq,quotafissa,quotavar4,totale,iva,tia);  //output del totale dovuto da pagare
 															}else{
-																			if(qfmq>=91<=105) {
+																			if(qfmq>=91&&qfmq<=105) {
 																				totale=(quotafix5*qfmq)+quotavar5;
                 																quotafissa=quotafix5*qfmq;
                 																iva=totale/10;
