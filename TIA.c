@@ -1,6 +1,6 @@
 //  TIA.c
 //  Calcolo della Tariffa Igiene Ambientale (TIA)
-//  Versione 0.1
+//  Versione 1.0
 //
 //  Created by Francesco Masala on 30/03/18.
 //  Copyright © 2018 Francesco Masala. All rights reserved.
@@ -32,7 +32,7 @@ int main() {
 			float stop=0;
 
     printf("Calcolo per la Tariffa Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
-    printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2 (non funzionante)\n");
+    printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2\n");
     scanf("%d", &tariffa); //selezione del territorio
 
 
