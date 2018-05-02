@@ -3,7 +3,7 @@
 //  Versione 1.0
 //
 //  Created by Francesco Masala on 30/03/18.
-//  Copyright © 2018 Francesco Masala. All rights reserved.
+//  Mit license 2018 Francesco Masala. All rights reserved.
 //
 #include <stdio.h>
 #include <stdlib.h>
