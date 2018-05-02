@@ -149,6 +149,6 @@ int main() {
                                         }
                                 }
                         }
-scanf("%d", stop);
+printf ("programma eseguito correttamente");
     return 0;
 }

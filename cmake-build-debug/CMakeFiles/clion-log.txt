@@ -1,4 +1,0 @@
-"/Users/easy/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/easy/Documents/GitHub/Calcolo-Tariffa-Igiene-Ambientale--TIA-
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/easy/Documents/GitHub/Calcolo-Tariffa-Igiene-Ambientale--TIA-/cmake-build-debug
