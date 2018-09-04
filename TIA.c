@@ -29,7 +29,6 @@ int main() {
             float totale=0;
             float tia=0;
             float iva=0;
-			float stop=0;
 
     printf("Calcolo per la Tariffa Igiene Ambientale\nVersione 0.5\nFrancesco Masala\n");
     printf("Selezionare il territorio\nTerritorio Urbano=1\nTerritorio ExtraUrbano=2\n");
